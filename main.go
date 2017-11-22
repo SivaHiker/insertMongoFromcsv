@@ -15,7 +15,7 @@ import (
 
 func main() {
 
-	file, err := os.Open("/Users/siva/Desktop/finalnew_resultplatform.csv")
+	file, err := os.Open("/home/siva/finalnew_resultplatform.csv")
 	defer file.Close()
 
 	if err != nil {
